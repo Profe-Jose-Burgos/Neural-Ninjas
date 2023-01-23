@@ -8,3 +8,5 @@ Jorge Duarte
 Andre Gomes
 
 Ediberto Cruz
+
+Alexandra Batista
