@@ -26,7 +26,7 @@
             "¡Aló!",
             "¡Buenas tardes!"
          ],
-         "respuesta": [
+         "responses": [
             "Hola, soy MC DROID, ¿en qué puedo ayudarte?",
             "Hola, soy MC DROID y ¿cómo puedo ayudarte?",
             "Hola, soy MC DROID y ¿en qué puedo servirte?"
@@ -62,6 +62,86 @@
              "¿Qué más quieres añadir a tu pedido?"
         ]
      },
+     {
+      "categoria": "Denuncias de comida",
+      "patterns": [
+          "No me gusto mi pedido",
+          "No estoy satisfecho con mi pedido",
+          "Me llego un pedido incorrecto",
+          "Me llegaron alimentos en mal estado",
+          "Los alimentos del pedido estaban con mal sabor",
+          "Los alimentos del pedido estaban vencidos",
+          "Los alimentos del pedido estaban deteriorados",
+          "Los alimentos del pedido estaban con mal olor",
+          "Los alimentos del pedido estaban con mal aspecto",
+          "Los alimentos del pedido estaban con mal gusto",
+          "Los alimentos del pedido estaban con mal tiempo de cocción",
+          "Los alimentos del pedido estaban con mal color",
+          "Los alimentos del pedido estaban con mal tiempo de preparación",
+          "Los alimentos del pedido estaban con mal sabor a quemado",
+          "Los alimentos del pedido estaban con mal sabor a cocido",
+          "Los alimentos del pedido estaban con mal sabor a crudo",
+          "Los alimentos del pedido estaban con mal sabor a podrido",
+          "Los alimentos del pedido estaban con mal sabor a rancio",
+          "Los alimentos del pedido estaban con mal sabor a amargo",
+          "Los alimentos del pedido estaban con mal sabor a ácido",
+          "Los alimentos del pedido estaban con mal sabor a salado",
+          "Los alimentos del pedido estaban con mal sabor a dulce",
+          "Los alimentos del pedido estaban con mal sabor a picante",
+          "Los alimentos del pedido estaban con mal sabor a ajo",
+          "Los alimentos del pedido estaban con mal sabor a cebolla",
+          "Los alimentos del pedido estaban con mal sabor a almendra",
+          "Los alimentos del pedido estaban con mal sabor a limón",
+          "Los alimentos del pedido estaban con mal sabor a vinagre",
+          "Los alimentos del pedido estaban con mal sabor a mantequilla",
+          "Los alimentos del pedido estaban con mal sabor a aceite",
+          "Los alimentos del pedido estaban con mal sabor a azúcar"
+      ],
+      "responses": [
+          "Gracias por comunicarnos tu inquietud, lamentamos mucho que hayas tenido una experiencia negativa con tu pedido. Por favor, ponte en contacto con el restaurante para hacer tu denuncia, es totalmente gratuito."
+       ]
+    },
+    {
+      "categoria": "Ayuda",
+      "patterns": [
+         "¿Necesito ayuda?",
+         "¿Puedes ayudarme?",
+         "¿Me puedes ayudar?",
+         "¿Ayuda?",
+         "¿Por favor ayúdame?",
+         "¿Alguna ayuda?",
+         "¿Necesito asistencia?",
+         "¿Necesito orientación?",
+         "¿Tienes alguna ayuda?",
+         "¿Me puedes guiar?",
+         "¿Me puedes asistir?",
+         "¿Me puedes aconsejar?",
+         "¿Me puedes aconsejar algo?",
+         "¿Me puedes asesorar?",
+         "¿Me puedes asesorar algo?",
+         "¿Me puedes sugerir algo?",
+         "¿Puedo tener tu ayuda?",
+         "¿Me puedes ayudar por favor?",
+         "¿Me puedes orientar?",
+         "¿Me puedes dirigir?",
+         "¿Me puedes guiar por favor?",
+         "¿Necesito tu ayuda?",
+         "¿Qué puedes hacer por mí?",
+         "¿Puedes iluminarme?",
+         "¿Tienes alguna sugerencia?",
+         "¿Tienes alguna recomendación?",
+         "¿Me puedes sugerir algo?",
+         "¿Me puedes recomendar algo?",
+         "¿Me puedes ofrecer alguna ayuda?",
+         "¿Me puedes ofrecer alguna orientación?",
+         "¿Me puedes ofrecer alguna asistencia?",
+         "¿Me puedes ofrecer alguna dirección?"
+      ],
+      "responses": [
+    
+         "Sí, para ayudarte te enviare esta imagen con lo que soy capaz de hacer"
+      ]
+   },
        {
          "categoria": "gracias",
          "patterns": [
