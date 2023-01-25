@@ -1,0 +1,7 @@
+Flask
+tensorflow
+keras
+werkzeug
+nltk
+pydub
+python
