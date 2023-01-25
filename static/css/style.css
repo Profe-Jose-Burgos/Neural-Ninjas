@@ -6,6 +6,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.postimg.cc/WbczdtFg/fondo.jpg);
+  background-size: cover; /* establece el tamaño de la imagen */
+  background-repeat: no-repeat; /* evita que se repita la imagen */
 }
 
 code {
@@ -150,10 +153,12 @@ nav .menu-btn i{
 #chat-interface {
   background-color: #f2f2f2;
   border-radius: 10px;
-  width: 80%;
+  
   height: 80%;
+  width: 80%;
   margin: 0 auto;
   padding: 20px;
+  opacity: 0.75;
 }
 
 #chat-header {
@@ -167,7 +172,8 @@ nav .menu-btn i{
 
 #chat-body {
   overflow-y: scroll;
-  max-height: 300px;
+  
+  max-height: 700px;
   margin-bottom: 20px;
 }
 
@@ -181,18 +187,36 @@ nav .menu-btn i{
   padding: 10px;
   border-radius: 10px;
 }
-
 .bot-message {
-  background-color: #fff;
-  color: #000;
-  padding: 10px;
+  background-color: #0c0c0c;
+  color: rgb(255, 255, 255);
+  padding: 15px;
   border-radius: 10px;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  border: 1px solid #ffce00;
+  box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.2);
+}
+
+.bot-message::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  top: -5px;
+  left: -5px;
+  background-color: #ffce00;
+  transform: rotate(45deg);
 }
 
 #chat-input {
-  width: 100%;
-  margin-top: 10px;
+    position: absolute;
+    bottom: 0; /* ajusta al final del contenedor */
+    width: 80%; /* establece el ancho del contenedor */
 }
+
 
 #chat-input textarea {
   width: 100%;
@@ -225,4 +249,54 @@ nav .menu-btn i{
   font-size: 8px;
   
   cursor: pointer;
+}
+#bg {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #ffce00;
+}
+
+#nameForm {
+  visibility: hidden;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  background-color: #f5f5dc;
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #ffce00;
+  border-radius: 20px;
+}
+
+#nameInput {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #f5f5dc;
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  
+}
+
+#nameFormButton {
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #ffce00;
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  transition: all 0.3s;
+}
+#nameFormButton:hover {
+  background-color: #111;
+  color: #ffce00;
+  cursor:pointer;
 }
